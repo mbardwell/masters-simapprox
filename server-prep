@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# mount vol1 on backend
+if [ ! -d "/mnt/vol1/" ]; then
+  echo /mnt/vol1 does not exist. Trying to mount
+  sudo mkdir /mnt/vol1
+fi
+if ! sudo mount /dev/sdc /mnt/vol1; then
+  read -p 'mount failed. Continue [y/other]? ' userin
+  if [ ! "$userin" = "y" ]; then
+    echo exiting
+    exit 1
+  fi
+fi
+
+# install anaconda 
+# (thanks https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart)
+sudo apt install inotify-tools -y
+curl -O https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+#while [ ! -f /tmp/sleep.txt ]; do sleep 1; done
+bash Anaconda3-2019.07-Linux-x86_64.sh --sk
+source ~/.bashrc
+
+# install env
+conda env create -f /mnt/vol1/environment.yml
+conda init bash
+source ~/anaconda3/etc/profile.d/conda.sh
+conda activate sim-approx
+conda install -c anaconda jupyter -y
+pip install pypsa
+
+# copy folders from volume
+cp -r /mnt/vol1/Do* ~/
+
+echo Done
+

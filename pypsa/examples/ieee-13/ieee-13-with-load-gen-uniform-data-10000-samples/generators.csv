@@ -1,0 +1,4 @@
+name,bus,q_set,p_nom,carrier,control
+Substation,Substation,,100,Substation,Slack
+675 Capacitor,675,0.6,,Capacitor,
+611 Capacitor,611,0.1,,Capacitor,
