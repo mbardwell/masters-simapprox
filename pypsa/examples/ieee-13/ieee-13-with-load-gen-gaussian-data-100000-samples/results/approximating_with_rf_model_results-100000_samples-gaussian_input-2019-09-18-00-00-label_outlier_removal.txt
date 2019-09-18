@@ -1,0 +1,68 @@
+Scores with outliers removed by 1-sigma filter: 
+r2 score: 0.4404498935663021
+rmse score: 0.003034414566557147
+mae score: 0.0021592306465658987
+maxae score: 0.035390213912141255
+
+
+Scores with all data (incl. outliers): 
+r2 score: 0.6081998730762346
+rmse score: 0.0025391462103004363
+mae score: 0.0017673716999786135
+maxae score: 0.027288566908512002
+
+
+Scores with outliers removed by 2-sigma filter: 
+r2 score: 0.5925082825055584
+rmse score: 0.0025894934456937415
+mae score: 0.0018033819467131692
+maxae score: 0.03320194821203448
+
+
+Scores with all data (incl. outliers): 
+r2 score: 0.610869572762153
+rmse score: 0.00253048063774992
+mae score: 0.0017622837122290849
+maxae score: 0.02927787708931051
+
+
+Scores with outliers removed by 3-sigma filter: 
+r2 score: 0.6164294160372116
+rmse score: 0.0025123380160403997
+mae score: 0.001746826357674079
+maxae score: 0.030153409116718932
+
+
+Scores with all data (incl. outliers): 
+r2 score: 0.6115149513901053
+rmse score: 0.002528381346988403
+mae score: 0.0017568386856197083
+maxae score: 0.03159176440636857
+
+
+Scores with outliers removed by 4-sigma filter: 
+r2 score: 0.6175159883119533
+rmse score: 0.002508777038023244
+mae score: 0.0017428954539859967
+maxae score: 0.030179614116119247
+
+
+Scores with all data (incl. outliers): 
+r2 score: 0.6115996800150866
+rmse score: 0.0025281056118504745
+mae score: 0.0017562971945968868
+maxae score: 0.03096774043314543
+
+
+Scores with outliers removed by 5-sigma filter: 
+r2 score: 0.6174213385182905
+rmse score: 0.0025090874307891384
+mae score: 0.0017437805133288754
+maxae score: 0.02922835862930573
+
+
+Scores with all data (incl. outliers): 
+r2 score: 0.6113852914221456
+rmse score: 0.002528803245458144
+mae score: 0.0017584102241693942
+maxae score: 0.028532719258111516
