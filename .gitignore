@@ -1,2 +1,3 @@
 smart-sim/simhandler/.ipynb_checkpoints/
 *.pyc
+pypsa/examples/ieee-13/ieee-13-with-load-gen-*1000000*
