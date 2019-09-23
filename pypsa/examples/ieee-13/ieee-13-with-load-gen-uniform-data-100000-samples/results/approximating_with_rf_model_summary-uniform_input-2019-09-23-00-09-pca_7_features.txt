@@ -1,0 +1,14 @@
+|                   |       100000 |
+|:------------------|-------------:|
+| rf_fit_time       | 111.781      |
+| rf_score_time     |   5.41396    |
+| rf_test_r2        |   0.836557   |
+| rf_test_rmse      |   0.00368876 |
+| rf_test_mae       |   0.00236076 |
+| rf_test_maxae     |   0.0311388  |
+| linear_fit_time   |   0.109644   |
+| linear_score_time |   0.199471   |
+| linear_test_r2    |   0.905764   |
+| linear_test_rmse  |   0.00139944 |
+| linear_test_mae   |   0.0010645  |
+| linear_test_maxae |   0.00828198 |
